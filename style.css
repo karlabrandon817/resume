@@ -54,7 +54,7 @@ header {
 }
 
 #developer {
-  margin-left: 300px;
+  margin-left: 290px;
   font-size: 30px;
   color: var(--white);
 }
@@ -69,6 +69,16 @@ header {
 
 #last-name {
   color: var(--white);
+}
+
+#skills {
+  list-style-type: none;
+  margin-left: -40px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 14px;
 }
 
 #textizen {
@@ -144,14 +154,4 @@ header {
   flex: 1;
   flex-basis: 40%;
   margin-left: 15px;
-}
-
-.skills {
-  list-style-type: none;
-  margin-left: -40px;
-  height: 100px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  font-size: 14px;
 }
