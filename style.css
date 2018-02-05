@@ -6,6 +6,16 @@
 :root{
   --page-width: 8.5in;
   --page-height: 11in;
+  --orange: #E86850;
+  --white: #f2f2f2;
+  --blue: #587498;
+  --black: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+  margin-left: 7px;
 }
 
 body {
@@ -13,47 +23,44 @@ body {
   height: var(--page-height);
 }
 
+h1 {
+  margin-top: 12px;
+}
+
+h3 i {
+  color: var(--orange);
+  margin-right: 5px;
+}
+
 header {
-  background-color: #587498;
+  background-color: var(--blue);
   z-index: 1;
+  position: fixed;
   height: 75px;
   top: 0;
   right: 0;
   left: 0;
-  position: fixed;
-  width: var(--page-width);
   font-family: 'Barlow Condensed', sans-serif;
   letter-spacing: 3px;
-  font-size: 20px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  margin-left: 7px;
-}
-
-h1 {
-  margin-top: 15px;
-}
-
-.h4-icon {
-  color: #E86850;
-  margin-right: 5px;
+  font-size: 24px;
 }
 
 #contact-info {
   margin-top: -10px;
-  color: black;
+  color: var(--black);
   margin-left: -5px;
   margin-top: 10px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 #developer {
   margin-left: 300px;
   font-size: 30px;
-  color: #f2f2f2;
+  color: var(--white);
+}
+
+#education {
+  margin-right: 5px;
 }
 
 #header-content {
@@ -61,16 +68,16 @@ h1 {
 }
 
 #last-name {
-  color: #f2f2f2;
+  color: var(--white);
 }
 
 #textizen {
-  color: #587498;
+  color: var(--blue);
   text-decoration: underline;
 }
 
-#textizen:hover {
-  color: #E86850;
+#textizen:hover, a:hover {
+  color: var(--orange);
 }
 
 .container {
@@ -83,13 +90,13 @@ h1 {
 }
 
 .college {
-  font-size: 14px;
-  margin-bottom: 5px;
+  font-size: 13px;
+  margin-bottom: 8px;
 }
 
 .company-name {
   font-weight: bold;
-  font-size: 13px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 
@@ -98,14 +105,28 @@ h1 {
   float: right;
 }
 
+.duties-details {
+  list-style-type: square !important;
+  font-size: 15px;
+}
+
+.duties-item {
+  margin-left: -20px;
+  font-size: 15px;
+}
+
 .fa-phone {
   margin-left: 7px;
 }
 
 .headline {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--black);
   width: 50%;
   font-weight: 400;
+}
+
+.job-title {
+  font-size: 15px;
 }
 
 .main {
@@ -116,13 +137,13 @@ h1 {
 
 .program {
   font-weight: 700;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .right-side {
   flex: 1;
   flex-basis: 40%;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 .skills {
@@ -132,5 +153,5 @@ h1 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  font-size: 13px;
+  font-size: 14px;
 }
