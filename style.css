@@ -1,0 +1,136 @@
+@page{
+  size: letter portrait;
+  margin: 0;
+}
+
+:root{
+  --page-width: 8.5in;
+  --page-height: 11in;
+}
+
+body {
+  width: var(--page-width);
+  height: var(--page-height);
+}
+
+header {
+  background-color: #587498;
+  z-index: 1;
+  height: 75px;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  width: var(--page-width);
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin-left: 7px;
+}
+
+h1 {
+  margin-top: 15px;
+}
+
+.h4-icon {
+  color: #E86850;
+  margin-right: 5px;
+}
+
+#contact-info {
+  margin-top: -10px;
+  color: black;
+  margin-left: -5px;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+#developer {
+  margin-left: 300px;
+  font-size: 30px;
+  color: #f2f2f2;
+}
+
+#header-content {
+  margin-left: 30px;
+}
+
+#last-name {
+  color: #f2f2f2;
+}
+
+#textizen {
+  color: #587498;
+  text-decoration: underline;
+}
+
+#textizen:hover {
+  color: #E86850;
+}
+
+.container {
+	display: flex;
+	max-width: 1000px;
+	margin: 0 auto;
+  margin-top: 85px;
+  margin-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.college {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.company-name {
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.dates-employed {
+  font-size: 13px;
+  float: right;
+}
+
+.fa-phone {
+  margin-left: 7px;
+}
+
+.headline {
+  border-bottom: 1px solid black;
+  width: 50%;
+  font-weight: 400;
+}
+
+.main {
+  flex: 3;
+  flex-basis: 60%;
+  padding-right: 20px;
+}
+
+.program {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.right-side {
+  flex: 1;
+  flex-basis: 40%;
+  margin-left: 20px;
+}
+
+.skills {
+  list-style-type: none;
+  margin-left: -40px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 13px;
+}
