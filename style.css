@@ -60,7 +60,7 @@ header {
   color: var(--white);
 }
 
-#education {
+#education, #certifications{
   margin-right: 5px;
 }
 
@@ -132,8 +132,12 @@ header {
 
 .headline {
   border-bottom: 1px solid var(--black);
-  width: 50%;
+  width: 60%;
   font-weight: 400;
+}
+
+.job-info{
+  margin-top: 5px;
 }
 
 .job-title {
